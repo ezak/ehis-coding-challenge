@@ -1,4 +1,4 @@
-package com.example.ecc;
+package com.example.ecc.ui;
 
 public class MainViewModel {
 }

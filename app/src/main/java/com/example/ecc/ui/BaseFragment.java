@@ -1,4 +1,4 @@
-package com.example.ecc;
+package com.example.ecc.ui;
 
 import android.os.Bundle;
 
@@ -9,6 +9,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.ecc.R;
 
 public abstract class BaseFragment extends Fragment {
 
