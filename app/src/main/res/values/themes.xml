@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Ehiscodingchallenge" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Ehiscodingchallenge" parent="Base.Theme.Ehiscodingchallenge" />
+
+    <style name="NavDrawerSubheaderStyle" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="NavDrawerItemStyle" parent="TextAppearance.AppCompat.Body1">
+    </style>
+
+</resources>
