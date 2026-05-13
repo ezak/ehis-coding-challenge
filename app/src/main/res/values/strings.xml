@@ -10,4 +10,12 @@
     <string name="delete_post">Delete Post</string>
     <string name="Search_post">Search Post</string>
 
+    <string name="ok">ok</string>
+    <string name="cancel">\n</string>
+
+    <string name="confirmation">Are You sure</string>
+
+
+
+
 </resources>

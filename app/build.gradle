@@ -26,6 +26,11 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField "String", "BASE_URL", "\"https://jsonplaceholder.typicode.com\""
+        }
+
+        debug {
+            buildConfigField "String", "BASE_URL", "\"https://jsonplaceholder.typicode.com\""
         }
     }
     compileOptions {
@@ -71,6 +76,9 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:5.3.2")
     //noinspection UseTomlInstead
     implementation 'com.squareup.retrofit2:adapter-rxjava3:3.0.0'
+
+    //noinspection UseTomlInstead
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.2.0"
 
     testImplementation libs.junit
     androidTestImplementation libs.espresso.core
